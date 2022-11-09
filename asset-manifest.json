@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eddyK15501/Youtube_React/static/css/main.74235671.css",
+    "main.js": "/eddyK15501/Youtube_React/static/js/main.b64ffb29.js",
+    "index.html": "/eddyK15501/Youtube_React/index.html",
+    "main.74235671.css.map": "/eddyK15501/Youtube_React/static/css/main.74235671.css.map",
+    "main.b64ffb29.js.map": "/eddyK15501/Youtube_React/static/js/main.b64ffb29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74235671.css",
+    "static/js/main.b64ffb29.js"
+  ]
+}
