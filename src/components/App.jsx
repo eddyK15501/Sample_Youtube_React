@@ -3,6 +3,7 @@ import SearchBar from "./SearchBar";
 import youtube from "../api/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
+import "./App.css";
 
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
@@ -32,7 +33,7 @@ class App extends React.Component {
       <div className="ui container">
         <SearchBar onSearch={this.onSearchSubmit} />
         <div className="ui grid">
-          <div className="ui row">
+          <div className="ui row wrap">
             <div className="eleven wide column">
               <VideoDetail video={this.state.selectedVideo} />
             </div>

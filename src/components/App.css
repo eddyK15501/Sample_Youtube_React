@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .wrap {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .ui.grid>.row>[class*="eleven wide"].column {
+        width: 90% !important;
+    }
+
+    .ui.grid>.row>[class*="five wide"].column {
+        width: 90% !important;
+    }
+}
